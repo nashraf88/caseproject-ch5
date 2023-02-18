@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="caastylesheet.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Security</title>
+    <script src="modernizr.custom.05819.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+    <header><h1><a href="index.html">Web Security and Safety</a></h1><h6>Created by Nazia Ashraf</h6></header>
+    
+    <main>
+        <div id="homepic"></div>
+        <h2>Web Security Defined</h2>
+        <p>Web security refers to protecting networks and computer systems from damage to or the theft of software, hardware, or data. It includes protecting 
+            computer systems from misdirecting or disrupting the services they are designed to provide.</p>
+            <p>Web security is synonymous with cybersecurity and also covers website security, which involves protecting websites from attacks. It includes cloud 
+                security and web application security, which defend cloud services and web-based applications, respectively. Protection of a virtual private 
+                network (VPN) also falls under the web security umbrella.</p>
+                <p>Web security is crucial to the smooth operation of any business that uses computers. If a website is hacked or hackers are able to manipulate your 
+                    systems or software, your website—and even your entire network—can be brought down, halting business operations.</p>
+
+                    <h2>Technologies for Web Security</h2>
+
+                <p>Various technologies are available to help companies achieve web security, including web application firewalls (WAFs), security or vulnerability 
+                    scanners, password-cracking tools, fuzzing tools, black box testing tools, and white box testing tools.</p>
+                
+                <ul>
+                    <li>Web Application Firewalls(WAFs)</li>
+                    <li>Security or Vulnerability Scanners</li>
+                    <li>Password-cracking Tools</li>
+                    <li>Fuzzing Tools</li>
+                    <li>Black Box Testing Tools</li>
+                    <li>White Box Testing Tools</li>
+                </ul>
+
+                <h2>Display of Properties of your Computer</h2>
+
+                <p>There are properties to illustrate the breadth of information about a user’s computer that a web app can access; 
+                    height of display screen(not including taskbar), width of display screen (not including taskbar),
+                display screen's bit depth if a color palette is in use, display screen's color resolution in bits per pixel, and height and width of display screen.
+            When you open this webpage in a browser, it displays all the information of your computer, explained above</p>
+
+                <p id="demo"></p>
+
+                <h2>Best Practices for Safe Web Browsing</h2>
+
+                <ul>
+                    <li>Pay Attention to the Site You Visit - Not all websites are safe. A website’s URL with an SSL certificate begins with https, not http, 
+                        like https://www.youtube.com/. It also has the padlock icon before the URL. </li>
+                    <li>Keep the Browser Updated - Hackers often seek web browsers’ vulnerabilities to attack the users. By keeping your browser updated, your 
+                        device can get the latest security version and prevent hackers from attacking it.</li>
+                    <li>Be Careful About Hyperlinks and Ads - It’s essential to check whether the URL links lead to the correct domain. One way to do this is 
+                        by hovering over the text link and seeing the preview at the bottom corner of your browser. </li>
+                    <li>Use a Secure Internet Connection - To prevent cyberattacks, try to avoid using public Wi-Fi and use your mobile data instead.</li>
+                    <li>Use VPN for Safe Web Browsing - Virtual Proxy Networks (VPN) can help maintain users’ privacy because it encrypts your data before sending 
+                        you to a website. As a result, the website, internet providers, and advertisers can’t track your internet activities. </li>
+                    <li>Install Antivirus Software - Antivirus software helps protect your device because it offers various security features, like firewall, 
+                        spyware and identity protection, and VPN.</li>
+                    <li>Block Pop-Ups - Browser pop-ups can appear when you open a website. They can be dangerous for your browsing experience because they may 
+                        contain ads, harmful links, and inappropriate content. </li>
+                    <li>Clean Web Browser Cookies and Cache - Go to the settings and look for a tool for clearing browser history. Some browsers also give you 
+                        an option to clear the cache automatically.</li>
+                    <li>Use Two-Factor Authentication - Two-factor authentication provides additional security to the sign-in process. It connects your browser 
+                        usage and the physical location you usually log in from. </li>
+                    <li>Turn On Private Browsing - Private browsing or incognito mode can help keep your internet activity private from other people that use 
+                        the same device. </li>
+                    <li>Create Strong Passwords - Make passwords unique, longer and memorable and avoid using personal info.</li>
+                    <li>Bookmark Important Websites - It gives you quick access to a page and helps prevent typos when typing the URL.</li>
+                </ul>
+                <br>
+
+                
+        
+        <div><h5>Citations</h5>
+            <a href="https://www.fortinet.com/resources/cyberglossary/what-is-web-security">https://www.fortinet.com/resources/cyberglossary/what-is-web-security</a><br>
+            <a href="https://rickscloud.com/best-practices-for-safe-web-browsing/">https://rickscloud.com/best-practices-for-safe-web-browsing/</a><br>
+            <a href="https://www.snbsd.com/about/online-safety-guide">https://www.snbsd.com/about/online-safety-guide</a>
+    </main><br>
+    <footer>Copyright &copy; 2023 Practices for Web Safety<br><a href="mailto:info@webpagesafety.com">
+        info@webpagesafety.com</a></footer>
+</div>
+<script>
+    let text = "Total width/height: " + screen.width + "*" + screen.height + "<br>" + "Available width/height: " + screen.availWidth + "*" + screen.availHeight + 
+    "<br>" + "Color depth: " + screen.colorDepth + "<br>" + "Color resolution: " + screen.pixelDepth;
+    document.getElementById("demo").innerHTML = text;
+</script>
+</body></html>
